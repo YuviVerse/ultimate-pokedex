@@ -30,7 +30,7 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 5. **Run your Pokedex**: `./pokedex`
 
 ## Getting Started 🛠️
-1. **Download the project as a ZIP file**: [Download ZIP](https://github.com/your-username/ultimate-pokedex/archive/refs/heads/main.zip)
+1. **Download the project as a ZIP file**: [Download ZIP](https://github.com/YuviVerse/ultimate-pokedex/archive/refs/heads/main.zip)
 2. **Extract the ZIP file**: Unzip the downloaded file to your desired location.
 3. **Open Windows Subsystem for Linux (WSL)**:
    - Open the WSL terminal.
