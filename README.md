@@ -14,9 +14,9 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 - **`src/pokemon.hpp`**: Header file with class definitions and method declarations.
 - **`src/pokemon.cpp`**: Your mission, should you choose to accept it, is to implement this file.
 - **`src/linkedlist.hpp`**: Header file for the LinkedList data structure.
-- **`src/linkedlist.cpp`**: Implementations for the LinkedList methods.
+- **`src/linkedlist.cpp`**: The brain behind our Pokedex's memory - time to get creative!
 - **`src/utility.hpp`**: Header file for utility functions.
-- **`src/utility.cpp`**: Implementations for utility functions.
+- **`src/utility.cpp`**: Where the magic of file I/O happens - abracadabra!
 - **`pokemon_list.txt`**: A list of Pokemon to get you started on your journey.
 - **`src/main.cpp`**: The starting point of your adventure. Expand and conquer!
 
@@ -26,7 +26,7 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 3. **Open Windows Subsystem for Linux (WSL)**:
    - Open the WSL terminal.
    - Navigate to the extracted project directory: `cd /mnt/c/path-to-your-extracted-folder/ultimate-pokedex-main/src`
-4. **Compile your code**: `gcc -o hrm -Wall -Werror -L. -lprog2 *.c`
+4. **Compile your code**: `gcc -o pokedex -Wall -Werror -L. -lprog2 *.c`
 5. **Run your Pokedex**: `./pokedex`
 
 ## Getting Started 🛠️
@@ -35,7 +35,7 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 3. **Open Windows Subsystem for Linux (WSL)**:
    - Open the WSL terminal.
    - Navigate to the extracted project directory: `cd /mnt/c/path-to-your-extracted-folder/ultimate-pokedex-main/src`
-4. **Compile your code**: `gcc -o hrm -Wall -Werror -L. -lprog2 *.c`
+4. **Compile your code**: `gcc -o pokedex -Wall -Werror -L. -lprog2 *.c`
 5. **Run your Pokedex**: `./pokedex`
 
 ## Pokedex Menu 📜
