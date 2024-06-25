@@ -66,3 +66,8 @@ Pokedex Loaded:
 Pikachu (Electric), Level: 25
 Charmander (Fire), Level: 15
 Squirtle (Water), Level: 10
+
+
+## Pikachu Says Hi! ⚡
+
+![Pikachu](https://media.tenor.com/TQDK_e6GWFMAAAAi/pikachu-cute.gif)
