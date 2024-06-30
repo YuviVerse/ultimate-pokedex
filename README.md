@@ -109,3 +109,8 @@ Pokedex Menu:
 Enter your choice: 7
 
 Exiting...
+```
+
+## Pikachu Says Hi! ⚡
+
+![Pikachu](https://media.tenor.com/TQDK_e6GWFMAAAAi/pikachu-cute.gif)
