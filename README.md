@@ -26,7 +26,7 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 3. **Open Windows Subsystem for Linux (WSL)**:
    - Open the WSL terminal.
    - Navigate to the extracted project directory: `cd /mnt/c/path-to-your-extracted-folder/ultimate-pokedex-main/src`
-4. **Compile your code**: `gcc -o pokedex -Wall -Werror -L. -lprog2 *.c`
+4. **Compile your code**: `g++ -o pokedex -Wall -Werror *.cpp`
 5. **Run your Pokedex**: `./pokedex`
 
 ## Getting Started 🛠️
@@ -35,7 +35,7 @@ In this project, you'll be building your very own Pokedex! 🗂️ You'll get to
 3. **Open Windows Subsystem for Linux (WSL)**:
    - Open the WSL terminal.
    - Navigate to the extracted project directory: `cd /mnt/c/path-to-your-extracted-folder/ultimate-pokedex-main/src`
-4. **Compile your code**: `gcc -o pokedex -Wall -Werror -L. -lprog2 *.c`
+4. **Compile your code**: `g++ -o pokedex -Wall -Werror *.cpp`
 5. **Run your Pokedex**: `./pokedex`
 
 ## Pokedex Menu 📜
