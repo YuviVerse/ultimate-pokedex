@@ -52,7 +52,7 @@ void Pokemon::display() const {
     // To be implemented
 }
 
-void Pokemon::display(bool detailed) const {
+void Pokemon::display(DisplayAttribute attribute) const {
     // To be implemented
 }
 

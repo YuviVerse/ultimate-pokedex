@@ -22,6 +22,11 @@ void LinkedList::displayAll() const {
     // To be implemented
 }
 
+// Display all Pokemons by attribute
+void LinkedList::displayAll(DisplayAttribute attribute) const{
+    // To be implemented
+}
+
 // Search for a Pokemon by name
 Node* LinkedList::searchPokemon(const char* name) const {
     // To be implemented

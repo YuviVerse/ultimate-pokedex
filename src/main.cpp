@@ -4,6 +4,8 @@
 
 using namespace Pokedex;
 
+void displaySubMenu(LinkedList& pokedex);
+
 int main() {
     LinkedList pokedex;
     Utility::readPokemonFromFile("pokemon_list.txt", pokedex);
@@ -26,7 +28,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                pokedex.displayAll();
+                displaySubMenu(pokedex);
                 break;
             case 2: {
                 char name[50], type[50];
@@ -79,4 +81,44 @@ int main() {
     } while (choice != 7);
 
     return 0;
+}
+
+void displaySubMenu(LinkedList& pokedex) {
+    int displayChoice;
+    std::cout << "\nDisplay Menu:\n";
+    std::cout << "1. Regular Display\n";
+    std::cout << "2. Display by Attribute\n";
+    std::cout << "Enter your choice: ";
+    std::cin >> displayChoice;
+
+    if (displayChoice == 1) {
+        pokedex.displayAll(NAME); // Regular display
+    } else if (displayChoice == 2) {
+        int attributeChoice;
+        std::cout << "\nDisplay by Attribute:\n";
+        std::cout << "1. Name\n";
+        std::cout << "2. Type\n";
+        std::cout << "3. Level\n";
+        std::cout << "Enter your choice: ";
+        std::cin >> attributeChoice;
+
+        switch (attributeChoice) {
+            case 1:
+                pokedex.displayAll(NAME);
+                break;
+            case 2:
+                pokedex.displayAll(TYPE);
+                break;
+            case 3:
+                pokedex.displayAll(LEVEL);
+                break;
+            default:
+                std::cout << "Invalid choice! Displaying regular view.\n";
+                pokedex.displayAll(NAME);
+                break;
+        }
+    } else {
+        std::cout << "Invalid choice! Displaying regular view.\n";
+        pokedex.displayAll(NAME);
+    }
 }

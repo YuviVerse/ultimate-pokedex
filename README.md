@@ -51,7 +51,15 @@ Once you run your Pokedex, you'll be greeted with a menu that lets you:
 ## Example Usage 💻
 Here's a sneak peek at how your adventure might look:
 
+## Example Usage 💻
+Here's a sneak peek at how your adventure might look:
+
 ```plaintext
+Pokedex Loaded:
+Pikachu (Electric), Level: 25
+Charmander (Fire), Level: 15
+Squirtle (Water), Level: 10
+
 Pokedex Menu:
 1. View All Pokemon
 2. Add New Pokemon
@@ -62,7 +70,42 @@ Pokedex Menu:
 7. Exit
 Enter your choice: 1
 
-Pokedex Loaded:
+Display Menu:
+1. Regular Display
+2. Display by Attribute
+Enter your choice: 2
+
+Display by Attribute:
+1. Name
+2. Type
+3. Level
+Enter your choice: 1
+
+Name: Pikachu
+Name: Charmander
+Name: Squirtle
+
+Pokedex Menu:
+1. View All Pokemon
+2. Add New Pokemon
+3. Search Pokemon
+4. Remove Pokemon
+5. Sort Pokemon by Level
+6. Display Pokemon by Type
+7. Exit
+Enter your choice: 3
+
+Enter Pokemon Name to Search: Pikachu
 Pikachu (Electric), Level: 25
-Charmander (Fire), Level: 15
-Squirtle (Water), Level: 10
+
+Pokedex Menu:
+1. View All Pokemon
+2. Add New Pokemon
+3. Search Pokemon
+4. Remove Pokemon
+5. Sort Pokemon by Level
+6. Display Pokemon by Type
+7. Exit
+Enter your choice: 7
+
+Exiting...

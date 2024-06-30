@@ -22,6 +22,7 @@ public:
     
     void addPokemon(const Pokemon& p);
     void displayAll() const;
+    void displayAll(DisplayAttribute attribute) const;
     Node* searchPokemon(const char* name) const;
     void removePokemon(const char* name);
     void sortPokemonsByLevel();

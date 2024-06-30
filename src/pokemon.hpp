@@ -3,6 +3,12 @@
 
 namespace Pokedex {
 
+enum DisplayAttribute {
+    NAME,
+    TYPE,
+    LEVEL
+};
+
 class Pokemon {
 private:
     char* name;
@@ -32,8 +38,8 @@ public:
 
     // Overloaded function
     void display() const;
-    void display(bool detailed) const;
-
+    void display(DisplayAttribute attribute) const;
+    
     // Inline function
     inline bool isHigherLevel(const Pokemon& other) const {
         return level > other.level;
